@@ -98,3 +98,62 @@
     margin-bottom: 10px;
     text-align: left;
 }
+
+.places-container .amenities {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.places-container .amenities>h2 {
+    font-size: 16px;
+    border-bottom: #DDD solid 1px;
+    padding-bottom: 10px;
+}
+
+.places-container .tv_image {
+    background: url("../images/icon_tv.png") center no-repeat;
+    background-size: 20px, 20px;
+}
+
+.places-container .pet_image {
+    background: url("../images/icon_pets.png") center no-repeat;
+    background-size: 20px, 20px;
+}
+
+.places-container .wifi_image {
+    background: url("../images/icon_wifi.png") center no-repeat;
+    background-size: 20px, 20px;
+}
+
+li>div {
+    display: inline-flex;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.amenities li {
+    display: flex;
+    flex-direction: row;
+}
+
+.amenities ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.places-container .reviews {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.places-container .reviews>h2 {
+    font-size: 16px;
+    border-bottom: #DDD solid 1px;
+    padding-bottom: 10px;
+}
+
+.reviews ul {
+    list-style: none;
+    padding-left: 0px;
+}
